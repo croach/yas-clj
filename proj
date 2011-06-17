@@ -1,0 +1,8 @@
+#Author : Christopher Roach <vthakr@gmail.com>
+#name : (defproject name "version" ...)
+# --
+(defproject ${1:name} "${2:version}" 
+  ${3::description "${4:desc}"
+  }:dependencies [[clojure "${5:version}"]${6:
+                  [clojure-contrib "${7:version}"]}])
+                  
